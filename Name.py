@@ -3,7 +3,7 @@ import random #will generate numbers based on the range provided by the develope
 def ec2namecharacter(name): #generate several characters
     return "". join(chr(random.randint(2,100)) for i in range(name))
     
-ec2count = int(input("What is the number of AWS EC2 instance ")) 
+ec2count = int(input("How many of EC2 instance? ")) 
 
 #list the departments.
 
@@ -25,9 +25,9 @@ while count != ec2count: #define
             count += 1
         else:
             print("\nNot authorized to use this program!") #did not correctly enter the name now they are not authorized. 
-            print("\nenter the required authorization and run the program again.")
+            print("\nEnter the required authorization and run the program again.")
             break
         
-#user request is completed
+#user request is completedS
     print('\nYour request is complete and ' + str(count) + 'generator name is created!')
     print('Thank you!')
