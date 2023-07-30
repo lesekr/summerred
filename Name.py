@@ -28,6 +28,6 @@ while count != ec2count: #define
             print("\nEnter the required authorization and run the program again.")
             break
         
-#user request is completedS
+#user request is completed
     print('\nYour request is complete and ' + str(count) + 'generator name is created!')
-    print('Thank you!')
+    print('Thank you. Meric!')
