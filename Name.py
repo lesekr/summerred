@@ -30,4 +30,4 @@ while count != ec2count: #define
         
 #user request is completed
     print('\nYour request is complete and ' + str(count) + 'generator name is created!')
-    print('Thank you. Meric!')
+    print('Thank you. Merci!')
